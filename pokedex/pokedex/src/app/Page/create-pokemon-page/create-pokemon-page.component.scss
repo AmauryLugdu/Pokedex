@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'ketchum';
+    src: url('../../../assets/Ketchum.otf') format("opentype");
+}
+
+h1{
+    font-family: 'ketchum';
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.titleCreate{
+    background-color: #527FD9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.create{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+
+.creatEl{
+    margin-left: auto;
+    margin-right: auto;
+
+}

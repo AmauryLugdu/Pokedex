@@ -1,0 +1,6 @@
+<div class="list">
+        <div class="singlePokemon" *ngFor="let p of pokemonsInput">
+            <h2>{{p.nom}}</h2>
+            <img src="{{p.Url}}" (click)="onClick(p)"/>
+        </div>
+</div>

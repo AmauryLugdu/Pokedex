@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'ketchum';
+    src: url('../../assets/Ketchum.otf') format("opentype");
+}
+
+h2{
+    font-family: 'ketchum';
+}
+
+.singlePokemon{
+    text-align: center;
+    background-color: #527FD9;
+    width: 30%;
+    border: solid black 3px;
+    border-radius:25px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+

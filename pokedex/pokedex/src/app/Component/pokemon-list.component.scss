@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'ketchum';
+    src: url('../../assets/Ketchum.otf') format("opentype");
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F23D5E;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    border: solid black 3px;
+    border-radius: 25px;
+    height: 220px;
+    
+}
+.singlePokemon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h2{
+    font-family: 'ketchum';
+}

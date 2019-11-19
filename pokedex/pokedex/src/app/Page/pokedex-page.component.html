@@ -1,0 +1,9 @@
+<div id="titre">
+    <h1>POKEDEX</h1>
+</div>
+<app-pokemon-list [pokemonsInput] = "pokemons" (pokemonClicked) = "getPokemonCliked($event)"></app-pokemon-list>
+<div class="button">
+        <a routerLink="/create">Create your own Pokemon</a>
+</div>
+
+<app-pokemon-detail [pokemonToDisplayInput] = "pokemonDetail"></app-pokemon-detail>

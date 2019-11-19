@@ -1,0 +1,25 @@
+<div class="titleCreate">
+        <h1>Create your pokemon!</h1>
+</div>
+<form class="create" (submit)= "formRef.valid && addPokemonFromForm()" #formRef="ngForm">
+    <div class="creatEl">
+        <label for="nom">Nom du Pokemon: </label>
+        <input type="text" name="nom" [(ngModel)]="newPokemon.nom" required #nameRef="ngModel">
+        <div *ngIf=" formRef.submitted && nameRef.errors?.required">Please type a name</div>
+    </div>
+
+    <div class="creatEl">
+        <label for="image">URL de l'image: </label>
+        <input type="text" name="image" [(ngModel)]="newPokemon.imageUrl"  required #urlRef="ngModel">
+        <div *ngIf= "formRef.submitted && urlRef.errors?.required">Please insert image url</div>
+    </div>    
+
+    <div class="creatEl">
+        <label for="description">Description du Pokemon: </label>
+        <input type="text" name="description" [(ngModel)]="newPokemon.description" required #desRef="ngModel">
+        <div *ngIf= "formRef.submitted && desRef.errors?.required">Please type description</div>
+    </div>
+
+    <button type="submit">ADD</button>
+</form>
+<button routerLink="/">Retour à la liste des pokemons</button>

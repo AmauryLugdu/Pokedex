@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'ketchum';
+    src: url('../../assets/Ketchum.otf') format("opentype");
+}
+
+
+
+h1{
+    font-family: 'ketchum';
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-family: 'ketchum';
+}
+
+#titre{
+    text-align: center;
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid black 5px;
+    border-radius: 25px;
+    
+    
+}
+
+.button{
+    text-align: center;
+    font-family: 'ketchum';
+    font-size: 20px;
+    border: solid black 3px;
+    border-radius: 25px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #27CDF2;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
